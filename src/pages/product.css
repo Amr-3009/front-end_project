@@ -1,0 +1,29 @@
+.ProductContainer {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0%;
+  transform: translateY(50%);
+  margin: auto;
+  width: 100%;
+}
+
+.centerBtn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999999999px;
+}
+
+.btnParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .ProductContainer {
+    flex-direction: column;
+    position: static;
+    transform: translateY(0%);
+  }
+}
