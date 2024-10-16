@@ -12,12 +12,13 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/products/:id" element={<Product />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="front-end_project/" element={<Home />} />
+        <Route path="front-end_project/home" element={<Home />} />
+        <Route path="front-end_project/cart" element={<Cart />} />
+        <Route path="front-end_project/login" element={<Login />} />
+        <Route path="front-end_project/products/:id" element={<Product />} />
+        <Route path="front-end_project/register" element={<Register />} />
+        <Route path="front-end_project/*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
